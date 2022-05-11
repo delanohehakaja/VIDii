@@ -11,6 +11,9 @@ body {
     margin: 0;
     background-image: url('../images/nyc-gebouwen.jpeg');
     background-color: rgb(120 120 120 /0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     display: grid;
     place-items: center;
 }
@@ -22,9 +25,39 @@ button:not([disabled]) {
 /* jouw CSS vanaf hier */
 
 h1 {
-    font-family: "Monaco", monospace;
+    font-family: "Verdana";
     color: crimson;
+    margin: 0;
+    padding: 0;
     text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    text-shadow:
+        .005em .02em 0em rgb(0 0 0),
+        .01em .04em 0em rgb(0 0 0),
+        .015em .06em 0em rgb(0 0 0),
+        .02em .08em 0em rgb(0 0 0),
+        .025em .10em 0em rgb(0 0 0),
+        .03em .12em 0em rgb(0 0 0),
+        .035em .14em 0em rgb(0 0 0),
+        .04em .16em 0em rgb(0 0 0),
+        .045em .18em 0em rgb(0 0 0),
+        .05em .2em 0em rgb(0 0 0);
+    /*
+    text-shadow:
+        .1em .1em 0em rgb(0 0 200),
+        .15em .15em 0em rgb(0 0 0);
+    */
+}
+
+h2 {
+    font-family: "Brush Script MT", cursive;
+    color: #ffffff;
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+    padding: 0;
+    text-shadow: .05em .05em 0em rgb(0 0 0);
 }
 
 p {
@@ -40,6 +73,19 @@ ol {
     gap: 2em;
 }
 
+/*
+li {
+    display:grid;
+    place-items:center;
+    flex-grow: 1;
+    flex-basis: 0%;
+}
+
+li:hover {
+    flex-basis: 50%;
+}
+*/
+
 button {
     position: relative;
     display: block;
@@ -47,23 +93,50 @@ button {
     margin: 0;
     border-radius: 50%;
     padding: 0;
-    overflow: hidden;
     border: none;
     background: none;
+    transition: .5s;
 }
 
+/* portal opmaak */
 button::after {
     content: "";
-    position:absolute;
-    inset: 0;
+    position: absolute;
+    inset: -20%;
     background-image: url('../images/portal.png');
-
+    background-size: cover;
     animation-name: gateway;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
 
+li:nth-of-type(1) button:after {
+    animation-duration: .9s;
+    animation-delay: .17s;
+}
+
+li:nth-of-type(2) button:after {
+    animation-duration: 1s;
+    animation-delay: .31s;
+}
+
+li:nth-of-type(3) button:after {
+    animation-duration: .9s;
+    animation-delay: .47s;
+}
+
+
+li:hover button {
+    transform: scale(1.8);
+
+}
+
+li:hover {
+    z-index: 100;
+}
+
+/* animatie draaien */
 @keyframes gateway {
     0% {
         transform: rotate(0);
@@ -78,61 +151,12 @@ button img {
     width: 100%;
 }
 
-
-/*
-article:hover {
-    animation-name: draaien;
-    animation-duration: 0.2s;
-    animation-fill-mode: none;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
+header {
+    display: grid;
+    place-items: center;
 }
 
-@keyframes draaien {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
+header img {
+    height: 2.5em;
+    width: 5em;
 }
-
-
-section.cirkel {
-    height: 13em;
-    width: 13em;
-    background-color: rgb(102 115 128);
-    border-radius: 50%;
-    box-shadow:
-        inset .25em .25em .25em rgb(102 102 102),
-        inset -.25em -.25em .25em rgb(255 255 255),
-        0em 0em 5em rgb(0 0 0);
-}
-
-section.cirkel:hover {
-    animation-name: draaien;
-    animation-duration: 0.2s;
-    animation-fill-mode: none;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-}
-
-@keyframes draaien {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    50% {
-        transform: rotate(180deg);
-    }
-
-    100% {
-        transform: rotate(360deg);
-    }
-}
-*/

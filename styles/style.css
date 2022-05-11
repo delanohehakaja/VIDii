@@ -1,19 +1,138 @@
 /* CSS Document */
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
 }
 
-html, body {
-  height:100%;
-  margin:0;
+html,
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url('../images/nyc-gebouwen.jpeg');
+    background-color: rgb(120 120 120 /0.5);
+    display: grid;
+    place-items: center;
 }
 
 button:not([disabled]) {
-  cursor:pointer;
+    cursor: pointer;
 }
 
 /* jouw CSS vanaf hier */
 
 h1 {
-  color:crimson;
+    font-family: "Monaco", monospace;
+    color: crimson;
+    text-align: center;
 }
+
+p {
+    font-family: cursive;
+    text-align: center;
+}
+
+ol {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    gap: 2em;
+}
+
+button {
+    position: relative;
+    display: block;
+    width: 25em;
+    margin: 0;
+    border-radius: 50%;
+    padding: 0;
+    overflow: hidden;
+    border: none;
+    background: none;
+}
+
+button::after {
+    content: "";
+    position:absolute;
+    inset: 0;
+    background-image: url('../images/portal.png');
+
+    animation-name: gateway;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes gateway {
+    0% {
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(1turn);
+    }
+}
+
+button img {
+    width: 100%;
+}
+
+
+/*
+article:hover {
+    animation-name: draaien;
+    animation-duration: 0.2s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes draaien {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+section.cirkel {
+    height: 13em;
+    width: 13em;
+    background-color: rgb(102 115 128);
+    border-radius: 50%;
+    box-shadow:
+        inset .25em .25em .25em rgb(102 102 102),
+        inset -.25em -.25em .25em rgb(255 255 255),
+        0em 0em 5em rgb(0 0 0);
+}
+
+section.cirkel:hover {
+    animation-name: draaien;
+    animation-duration: 0.2s;
+    animation-fill-mode: none;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+
+@keyframes draaien {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+*/

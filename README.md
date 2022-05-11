@@ -49,7 +49,13 @@ Mijn startniveau is: blauw
   <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
 
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Na de uitleg van het concept was het idee leuk en duidelijk en met de volgende afbeelding liet ik zien hoe dit eruit zou gaan zien.
+  <img src="readme-images/schets-idee.jpg" alt="eerste schets">
+  
+  Als feedback kreeg ik de volgende punten:
+  Ik zou per gateway een ander achtergrond weergeven, zodat je de verschillen kan zien
+  Elk Spider-man heeft een ander outfit, laat dat ook terugkomen in je design
+  
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).

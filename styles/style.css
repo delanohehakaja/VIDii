@@ -9,7 +9,7 @@ html,
 body {
     height: 100%;
     margin: 0;
-    background-image: url('../images/nyc-gebouwen.jpeg');
+    background-image: url("../images/nyc-gebouwen.jpeg");
     background-color: rgb(120 120 120 /0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,9 +24,23 @@ button:not([disabled]) {
 
 /* jouw CSS vanaf hier */
 
+/***********************/
+/***CUSTOM PROPERTIES***/
+/***********************/
+:root {
+    --kleur-merk: crimson;
+    --kleur-basis: #fff;
+}
+
+
+
+
+/***********************/
+/******TYPOGRAFIE*******/
+/***********************/
 h1 {
     font-family: "Verdana";
-    color: crimson;
+    color: var(--kleur-merk);
     margin: 0;
     padding: 0;
     text-align: center;
@@ -42,27 +56,66 @@ h1 {
         .035em .14em 0em rgb(0 0 0),
         .04em .16em 0em rgb(0 0 0),
         .045em .18em 0em rgb(0 0 0),
-        .05em .2em 0em rgb(0 0 0);
-    /*
-    text-shadow:
-        .1em .1em 0em rgb(0 0 200),
-        .15em .15em 0em rgb(0 0 0);
-    */
+        .05em .2em 0em rgb(0 0 0),
+        0 0 1em rgb(200 0 0);
 }
 
 h2 {
     font-family: "Brush Script MT", cursive;
-    color: #ffffff;
+    color: var(--kleur-basis);
     text-align: center;
     font-size: 3em;
     margin: 0;
     padding: 0;
-    text-shadow: .05em .05em 0em rgb(0 0 0);
+    text-shadow:
+        .05em .05em 0em rgb(0 0 0),
+        0 0 1em rgb(200 0 0);
 }
 
 p {
-    font-family: cursive;
+    color: var(--kleur-basis);
     text-align: center;
+}
+
+/***********************/
+/*******ALGEMEEN********/
+/***********************/
+
+/* afbeelding maguire button veranderen */
+body[data-verse="maguire"] li:nth-of-type(1) button img {
+    content: url("../images/spiderman-maguire-mj.png");
+}
+
+body[data-verse="maguire"] li:nth-of-type(1) button::after {
+    animation-duration: .3s;
+}
+
+/* afbeelding garfield button veranderen */
+body[data-verse="garfield"] li:nth-of-type(2) button img {
+    content: url("../images/spiderman-garfield-mj.png");
+}
+
+body[data-verse="garfield"] li:nth-of-type(2) button::after {
+    animation-duration: .3s;
+}
+
+/* afbeelding holland button veranderen */
+body[data-verse="holland"] li:nth-of-type(3) button img {
+    content: url("../images/spiderman-holland-mj.png");
+}
+
+body[data-verse="holland"] li:nth-of-type(3) button::after {
+    animation-duration: .3s;
+}
+
+header {
+    display: grid;
+    place-items: center;
+}
+
+header img {
+    height: 2.5em;
+    width: 5em;
 }
 
 ol {
@@ -73,19 +126,9 @@ ol {
     gap: 2em;
 }
 
-/*
-li {
-    display:grid;
-    place-items:center;
-    flex-grow: 1;
-    flex-basis: 0%;
-}
-
-li:hover {
-    flex-basis: 50%;
-}
-*/
-
+/***********************/
+/********BUTTONS********/
+/***********************/
 button {
     position: relative;
     display: block;
@@ -102,15 +145,17 @@ button {
 button::after {
     content: "";
     position: absolute;
-    inset: -20%;
+    inset: -25%;
     background-image: url('../images/portal.png');
     background-size: cover;
     animation-name: gateway;
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
+
 }
 
+/* animatie portal */
 li:nth-of-type(1) button:after {
     animation-duration: .9s;
     animation-delay: .17s;
@@ -129,7 +174,6 @@ li:nth-of-type(3) button:after {
 
 li:hover button {
     transform: scale(1.8);
-
 }
 
 li:hover {
@@ -149,14 +193,4 @@ li:hover {
 
 button img {
     width: 100%;
-}
-
-header {
-    display: grid;
-    place-items: center;
-}
-
-header img {
-    height: 2.5em;
-    width: 5em;
 }

@@ -67,13 +67,13 @@ Mijn startniveau is: blauw
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
-  - Wat nog ontbrak aan mijn ontwerp is dat de gateways nog niet op een multivers gateway leek. De eerste versie gateway was alleen een cirkel met een afbeelding erin.
+  Wat nog ontbrak aan mijn ontwerp is dat de gateways nog niet op een multivers gateway leek. De eerste versie gateway was alleen een cirkel met een afbeelding erin.
   
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   
-  - Als oplossing heb ik op google een multivers gateway opgezocht, uitgesneden en boven op mijn huidige gateways verwerkt.
+  Als oplossing heb ik op google een multivers gateway opgezocht, uitgesneden en boven op mijn huidige gateways verwerkt.
   
   <img src="readme-images/1portal.png" alt="multivers gateway"> <img src="readme-images/multivers-gateway.png" alt="multivers gateway">
 
@@ -81,33 +81,46 @@ Mijn startniveau is: blauw
   ### Bevinding 3:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
-   - Er was nog geen omgeving waar de gateways in stonden.
+  Er was nog geen omgeving waar de gateways in stonden.
 
    
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   
+  Als ik aan Spider-man denk, dan denk ik aan New York. De stad waar Spider-man woont en misdaden bestrijdt. Dit wilde ik ook in mijn ontwerp verwerken. Ik heb een afbeelding gezocht van de stad New York om als achtergrond te gebruiken.
   
+  <img scr="images/nyc-gebouwen.jpeg" alt="nyc gebouwen">
+  
+  <img scr="readme-images/gateways-en-achtergrond" alt="gateways en achtergrond">
   
   ### Bevinding 4:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
-   - De fonts moeten nog meer in de sfeer komen van Spider-man.
+  Bij de oplossing van bevinding 3 zie je bovenin wat tekst met standaard fonts. Deze fonts moeten natuurlijk wat meer sfeer krijgen, waardoor het bij de Spider-man sfeer gaat passen.
 
    
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  Door het lettertype en de kleur aan te passen, kom je al meer in de sfeer van Spider-man. Als extra toevoeging heb ik ook bovenin het logo van Marvel weergegeven, waardoor het nog duidelijker wordt dat het om Spider-man gaat.
+  
+  <img src="readme-images/fullscreen-spiderman" alt="fullscreen spiderman">
   
   
   
   ### Bevinding 5:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
-   - .
+  Er moet nog interactie komen in het ontwerp.
 
    
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  Door middel van hoveren en klikken komt er interactie. Als je met je muis over 1 van de gateways gaat dan vergroot die gateway. Klik je vervolgens ook nog eens op de gateway dan verandert de afbeelding in de gateway naar de Spider-man en MJ.
+  
+  <img scr="readme-images/fullscreen-hover" alt="fullscreen hover">
+  <img scr="readme-images/fullscreen-click" alt="fullscreen click">
 
 </details>
 

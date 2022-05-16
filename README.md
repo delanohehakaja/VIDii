@@ -91,7 +91,7 @@ Mijn startniveau is: blauw
   
   <img scr="images/nyc-gebouwen.jpeg" alt="nyc gebouwen">
   
-  <img scr="readme-images/gateways-en-achtergrond" alt="gateways en achtergrond">
+  <img scr="readme-images/gateways-en-achtergrond.png" alt="gateways en achtergrond">
   
   ### Bevinding 4:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
@@ -104,7 +104,7 @@ Mijn startniveau is: blauw
   
   Door het lettertype en de kleur aan te passen, kom je al meer in de sfeer van Spider-man. Als extra toevoeging heb ik ook bovenin het logo van Marvel weergegeven, waardoor het nog duidelijker wordt dat het om Spider-man gaat.
   
-  <img src="readme-images/fullscreen-spiderman" alt="fullscreen spiderman">
+  <img src="readme-images/fullscreen-spiderman.png" alt="fullscreen spiderman">
   
   
   
@@ -119,8 +119,8 @@ Mijn startniveau is: blauw
   
   Door middel van hoveren en klikken komt er interactie. Als je met je muis over 1 van de gateways gaat dan vergroot die gateway. Klik je vervolgens ook nog eens op de gateway dan verandert de afbeelding in de gateway naar de Spider-man en MJ.
   
-  <img scr="readme-images/fullscreen-hover" alt="fullscreen hover">
-  <img scr="readme-images/fullscreen-click" alt="fullscreen click">
+  <img scr="readme-images/fullscreen-hover.png" alt="fullscreen hover">
+  <img scr="readme-images/fullscreen-click.png" alt="fullscreen click">
 
 </details>
 

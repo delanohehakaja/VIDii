@@ -89,9 +89,9 @@ Mijn startniveau is: blauw
   
   Als ik aan Spider-man denk, dan denk ik aan New York. De stad waar Spider-man woont en misdaden bestrijdt. Dit wilde ik ook in mijn ontwerp verwerken. Ik heb een afbeelding gezocht van de stad New York om als achtergrond te gebruiken.
   
-  <img scr="images/nyc-gebouwen.jpeg" alt="nyc gebouwen">
+  <img src="images/nyc-gebouwen.jpeg" alt="nyc gebouwen">
   
-  <img scr="readme-images/gateways-en-achtergrond.png" alt="gateways en achtergrond">
+  <img src="readme-images/gateways-en-achtergrond.png" alt="gateways en achtergrond">
   
   ### Bevinding 4:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
@@ -119,8 +119,9 @@ Mijn startniveau is: blauw
   
   Door middel van hoveren en klikken komt er interactie. Als je met je muis over 1 van de gateways gaat dan vergroot die gateway. Klik je vervolgens ook nog eens op de gateway dan verandert de afbeelding in de gateway naar de Spider-man en MJ.
   
-  <img scr="readme-images/fullscreen-hover.png" alt="fullscreen hover">
-  <img scr="readme-images/fullscreen-click.png" alt="fullscreen click">
+  <img src="readme-images/fullscreen-hover.png" alt="fullscreen hover">
+  
+  <img src="readme-images/fullscreen-click.png" alt="fullscreen click">
 
 </details>
 

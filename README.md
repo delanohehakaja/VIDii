@@ -75,7 +75,7 @@ Mijn startniveau is: blauw
   
   - Als oplossing heb ik op google een multivers gateway opgezocht, uitgesneden en boven op mijn huidige gateways verwerkt.
   
-  <img src="readme-images/1portal.png alt="multivers gateway"> <img src="readme-images/multivers-gateway.png alt="multivers gateway">
+  <img src="readme-images/1portal.png" alt="multivers gateway"> <img src="readme-images/multivers-gateway.png" alt="multivers gateway">
 
 
   ### Bevinding 3:

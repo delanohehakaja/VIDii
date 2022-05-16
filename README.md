@@ -58,20 +58,56 @@ Mijn startniveau is: blauw
   
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  <img src="readme-images/3-keer-spiderman.png" alt="3 keer spiderman">
+  
+  Ik heb 3 verschillende gateways gemaakt. Deze gateways laten verschillende achtergronden zien en de verschillende acteurs die Spider-man hebben gespeeld.
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+  - Wat nog ontbrak aan mijn ontwerp is dat de gateways nog niet op een multivers gateway leek. De eerste versie gateway was alleen een cirkel met een afbeelding erin.
+  
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
-
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  - Als oplossing heb ik op google een multivers gateway opgezocht, uitgesneden en boven op mijn huidige gateways verwerkt.
+  
+  <img src="readme-images/1portal.png alt="portal"> <img src="readme-images/multivers-gateway.png alt="multivers gateway">
 
 
   ### Bevinding 3:
-  ...
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+   - Er was nog geen omgeving waar de gateways in stonden.
+
+   
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  
+  
+  ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+   - De fonts moeten nog meer in de sfeer komen van Spider-man.
+
+   
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  
+  
+  ### Bevinding 5:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+   - .
+
+   
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 </details>
 

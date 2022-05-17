@@ -152,16 +152,22 @@ Mijn startniveau is: blauw
   Groot scherm:
   <img src="readme-images/responsive-fullscreen.png" alt="responsive fullscreen">
   
-  verkleind scherm:
+  Kleiner scherm:
   <img src="readme-images/responsive-midscreen.png" alt="responsive midscreen">
 
 
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  Ik moet nog duidelijker naar voren laten dat het gaat om 3 verschillende Spider-man's. 
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  Dit laat ik zien door een tekstbriefje omringd door een Spider-web. In dit tekstbriefje staat de naam van de acteur die in de gateway wordt afgebeeld en in welke Spider-man's hij heeft gespeeld.
+  
+  <img src="readme-images/text-web.png" alt="text web">
 
 
 

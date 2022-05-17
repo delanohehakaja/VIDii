@@ -3,10 +3,6 @@ var maguireButton = document.querySelector("#maguire");
 var garfieldButton = document.querySelector("#garfield");
 var hollandButton = document.querySelector("#holland");
 
-console.log(maguireButton);
-console.log(garfieldButton);
-console.log(hollandButton);
-
 maguireButton.addEventListener("click", openMaguireVerse);
 garfieldButton.addEventListener("click", openGarfieldVerse);
 hollandButton.addEventListener("click", openHollandVerse);

@@ -106,6 +106,9 @@ Mijn startniveau is: blauw
   
   <img src="readme-images/fullscreen-spiderman.png" alt="fullscreen spiderman">
   
+  Bronnen:
+  https://codepen.io/The_Gusz/pen/mdXWbLw
+  
   
   
   ### Bevinding 5:
@@ -122,6 +125,9 @@ Mijn startniveau is: blauw
   <img src="readme-images/fullscreen-hover.png" alt="fullscreen hover">
   
   <img src="readme-images/fullscreen-click.png" alt="fullscreen click">
+  
+  Bronnen:
+  https://codepen.io/The_Gusz/pen/MWQyWbG?editors=1100
 
 </details>
 
@@ -135,9 +141,19 @@ Mijn startniveau is: blauw
   
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  
+  Op de pagina waren alleen de fonts responsive, maar de gateway's nog niet.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  
+  Door middel van de width aan te passen naar width: 22vw bij de buttons/gateway's, worden deze responsive.
+  
+  Groot scherm:
+  <img src="readme-images/responsive-fullscreen.png" alt="responsive fullscreen">
+  
+  verkleind scherm:
+  <img src="readme-images/responsive-midscreen.png" alt="responsive midscreen">
 
 
 

@@ -32,8 +32,9 @@ button:not([disabled]) {
     --kleur-merk: crimson;
     --kleur-basis: #fff;
     --kleur-schaduw: #000;
-    --kleur-spreadSchaduw-: rgb(0 0 50);
-    --kleur-background-:rgb(120 120 120 /0.5);
+    --kleur-gloei: rgb (0 0 200);
+    --kleur-spreadSchaduw: rgb(0 0 50);
+    --kleur-background:rgb(120 120 120 /0.5);
 }
 
 
@@ -61,7 +62,7 @@ h1 {
         .04em .16em 0em var(--kleur-schaduw),
         .045em .18em 0em var(--kleur-schaduw),
         .05em .2em 0em var(--kleur-schaduw),
-        0 0 1em var(--kleur-spreadSchaduw-);
+        0 0 1em var(--kleur-spreadSchaduw);
 }
 
 h2 {
@@ -73,7 +74,7 @@ h2 {
     padding: 0;
     text-shadow:
         .05em .05em 0em var(--kleur-schaduw),
-        0 0 1em var(--kleur-spreadSchaduw-);
+        0 0 1em var(--kleur-spreadSchaduw);
 }
 
 p {
@@ -90,8 +91,13 @@ body[data-verse="maguire"] li:nth-of-type(1) button img {
     content: url("../images/spiderman-maguire-mj.png");
 }
 
+/* snelheid portal */
 body[data-verse="maguire"] li:nth-of-type(1) button::after {
     animation-duration: .3s;
+}
+
+body[data-verse"maguire"] li:nth-of-type(1) img {
+    content: url("../images/maguire-text.png");
 }
 
 /* afbeelding garfield button veranderen */
@@ -99,6 +105,7 @@ body[data-verse="garfield"] li:nth-of-type(2) button img {
     content: url("../images/spiderman-garfield-mj.png");
 }
 
+/* snelheid portal */
 body[data-verse="garfield"] li:nth-of-type(2) button::after {
     animation-duration: .3s;
 }
@@ -108,6 +115,7 @@ body[data-verse="holland"] li:nth-of-type(3) button img {
     content: url("../images/spiderman-holland-mj.png");
 }
 
+/* snelheid portal */
 body[data-verse="holland"] li:nth-of-type(3) button::after {
     animation-duration: .3s;
 }
@@ -115,7 +123,7 @@ body[data-verse="holland"] li:nth-of-type(3) button::after {
 header {
     display: grid;
     place-items: center;
-    padding: 1em;
+    padding: 2em;
     gap: 1em;
 }
 
@@ -124,11 +132,16 @@ header img {
     width: 5vw;
 }
 
+button img {
+    width: 100%;
+}
+
 ol {
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0;
-    padding: 1em;
+    padding: 2em;
     list-style: none;
     gap: 10em;
 }
@@ -139,7 +152,7 @@ ol {
 button {
     position: relative;
     display: block;
-    width: 25em;
+    width: 22vw;
     margin: 0;
     border-radius: 50%;
     padding: 0;
@@ -159,7 +172,6 @@ button::after {
     animation-duration: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-
 }
 
 /* animatie portal */
@@ -198,6 +210,13 @@ li:hover {
     }
 }
 
-button img {
-    width: 100%;
+@keyframes text{
+    0% {
+        transform:scale(0);
+    }
+    
+    100% {
+        transform:scale(100);
+    }
 }
+

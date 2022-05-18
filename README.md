@@ -267,6 +267,7 @@ Mijn startniveau is: blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
+
   <img src="readme-images/final-ontwerp.png" alt="final ontwerp">
   <img src="readme-images/final-ontwerp-active.png" alt="final ontwerp active">
   <img src="readme-images/final-ontwerp-hover.png" alt="final ontwerp hover">
@@ -274,16 +275,22 @@ Mijn startniveau is: blauw
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Tijdens een van de lessen bespraken wij het onderwerp animeren. Met behulp van de oefeningen heb ik geleerd hoe je de verschillende states kan toepassen en heb ik dit ook verwerkt in mijn ontwerp.
   
-  <img src="readme-images/focus.png" alt="focus">
+  Tijdens de lessen heb ik onwijs veel geleerd. Sanne ging stap voor stap door de oefeningen heen en liet ons daarna zelf knutselen met css/javascript.
   
-  <img src="readme-images/active.png" alt="active">
+  #### Animeren
+  Tijdens een van de lessen bespraken wij het onderwerp animeren. Met behulp van de oefeningen heb ik geleerd hoe je de keyframes kan toepassen en heb ik dit ook verwerkt in mijn ontwerp. In mijn ontwerp draaien de multivers gateway's door middel van de keyframes.
+  
+  <img src="readme-images/geen-focus.png" alt="geen focus">
+  
+  Met javascript heb 
   
   
   
   Het stijlen van het lettertype ging goed, en ik heb geleerd dat je door middel van :root alle kleuren tegelijk kan aanpassen.
+  
   <img src="readme-images/custom-properties.png" alt="custom properties">
+  
   
   
   

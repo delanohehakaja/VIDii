@@ -27,6 +27,8 @@ button:not([disabled]) {
     cursor: pointer;
 }
 
+
+
 /* jouw CSS vanaf hier */
 
 /***********************/
@@ -98,6 +100,9 @@ p {
     color: var(--kleur-basis);
 }
 
+
+
+
 /***********************/
 /*******ALGEMEEN********/
 /***********************/
@@ -139,6 +144,7 @@ header {
     gap: 1em;
 }
 
+/* marvel logo */
 header img {
     height: 2.5vw;
     width: 5vw;
@@ -159,10 +165,15 @@ ol {
     gap: 10em;
 }
 
+/* de code hierboven zorgt ervoor dat wanneer het beeldscherm kleiner wordt de gateways van 1 lijn naar meerdere lijnen wrapt bron: https://flexboxfroggy.com/#nl */
+
 li {
     position: relative;
 
 }
+
+
+
 
 /***********************/
 /********BUTTONS********/
@@ -315,7 +326,7 @@ li:nth-of-type(3):hover section {
 
 
 
-/* animatie draaien */
+/* animatie draaien gateway */
 @keyframes gateway {
     0% {
         transform: rotate(0);

@@ -149,9 +149,11 @@ Mijn startniveau is: blauw
   Door middel van de width aan te passen naar width: 22vw bij de buttons/gateway's, worden deze responsive.
   
   Groot scherm:
+  
   <img src="readme-images/responsive-fullscreen.png" alt="responsive fullscreen">
   
   Kleiner scherm:
+  
   <img src="readme-images/responsive-midscreen.png" alt="responsive midscreen">
 
 
@@ -240,6 +242,9 @@ Mijn startniveau is: blauw
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   
+  Samen met Sanne heb ik gekeken naar de spider-web en tekstvak. Ik gebruikte eerst box-shadows, maar kwamen Sanne en ik op conic-gradient uit voor de tekstvak. De oplossing voor de spider-web was dat naar de background moest. 
+  
+  <img src="readme-images/spider-web-text.png" alt="spider web text">
   
   
   ### Bevinding 4:
@@ -253,6 +258,8 @@ Mijn startniveau is: blauw
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   
   Als oplossing heb ik er een filmrol gemaakt, omdat het ontwerp over verschillende Spider-man's gaat en over welke films het gaat.
+  
+  <img src="readme-images/spider-web-text.png" alt="spider web text">
   
   
 
@@ -278,28 +285,68 @@ Mijn startniveau is: blauw
   
   Tijdens de lessen heb ik onwijs veel geleerd. Sanne ging stap voor stap door de oefeningen heen en liet ons daarna zelf knutselen met css/javascript.
   
+  
   #### Animeren
   Tijdens een van de lessen bespraken wij het onderwerp animeren. Met behulp van de oefeningen heb ik geleerd hoe je de keyframes kan toepassen en heb ik dit ook verwerkt in mijn ontwerp. In mijn ontwerp draaien de multivers gateway's door middel van de keyframes.
   
   <img src="readme-images/geen-focus.png" alt="geen focus">
   
-  Met javascript heb 
+  Met javascript heb geleerd dat je 
   
   
-  
+  #### Stijlen
   Het stijlen van het lettertype ging goed, en ik heb geleerd dat je door middel van :root alle kleuren tegelijk kan aanpassen.
   
   <img src="readme-images/custom-properties.png" alt="custom properties">
   
   
+  #### Responsive
+  In de eerste week bespraken we het de onderwerpen lay-out & dingen op hun plek zetten. Tussen de oefeningen stond er ook Flex froggy, dat ik al eens eerder heb gedaan. Dit heeft mij heel erg geholpen om de gateways te wrappen en met viewport width om content te laten meeschalen met de grootte van de pagina.
   
+  Groot scherm:
+  
+  <img src="readme-images/responsive-fullscreen.png" alt="responsive fullscreen">
+  
+  Kleiner scherm:
+  
+  <img src="readme-images/responsive-midscreen.png" alt="responsive midscreen">
   
   
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)
+  
+  
+  #### Multivers gateway
+  Waar ik aan het begin van de 2 weken tegenaan liep was om de gateway afbeelding voor de Spider-Man afbeelding zetten en de gateway te laten draaien. 
+  
+  <img src="readme-images/geen-portal.png" alt="geen portal">
+  
+  Samen met Sanne zijn we erachter gekomen dat button::after en @keyframes de oplossing was voor het probleem. 
+  
+  <img src="readme-images/geen-focus.png" alt="geen focus">
+  
+  
+  #### Javascript
+  Ik ben nooit heel sterk geweest in css en al helemaal niet in javascript, dus javascript was ook zeker het gedeelte waar ik veel moeite mee had. Mijn idee was om op een gateway te klikken van bijvoorbeeld de acteur Tom Holland, wat dan zou veranderen in een afbeelding met hem en MJ. Dit was wel een moment dat ik de hulp van Sanne moest inschakelen.
+  
+  <img src="readme-images/multivers-gateway.png" alt="multivers gateway">
+  
+  Voor de oplossing werd er gebruikt gemaakt van zowel css als javascript. Binnen javascript maak je de variabelen aan en geeft ze een functie en roep je ze op en in css verander je de afbeeldingen. 
+  
+  <img src="readme-images/holland-mj-portal.png" alt="holland mj portal">
+  
+  
+  #### Tekstvak & spider-web
+  Wat ik vooral lastig vond was het tekstvak en de spider-web op de juist volgorde achter elkaar te zetten.
+  
+  <img src="readme-images/spider-web-text-fout.png" alt="spiderweb text fout">
+  
+  Het is mij helaas niet gelukt om elk tekstvak op maat te krijgen en de spider-web erachter te centreren.
+  Ik heb de lengte van de tekst zo aangepast dat het er nog redelijk uitziet.
+  
+  <img src="readme-images/spider-web-text.png" alt="spider web text">
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -336,6 +383,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 11. Ik heb het hoveren en klikken op de gateway mogelijk gemaakt met behulp van deze bron: https://codepen.io/The_Gusz/pen/mdXWbLw
 
 12. Afbeelding Spider-man icon; https://iconape.com/spider-man-comic-new-logo-logo-icon-svg-png.html
+
+13. Flex froggy oefening gebruikt voor items wrappen; https://flexboxfroggy.com/#nl
 
 
 </details>

@@ -196,7 +196,7 @@ Mijn startniveau is: blauw
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   
-  Voor de focus state heb ik een zwarte schaduw toegepast om te laten zien waar je bent.
+  Voor de focus state heb ik een donkerblauw schaduw toegepast om te laten zien waar je bent.
   
   Geen focus
   <img src="readme-images/geen-focus.png" alt="geen focus">

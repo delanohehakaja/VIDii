@@ -36,7 +36,7 @@ button:not([disabled]) {
     --kleur-merk: crimson;
     --kleur-basis: #fff;
     --kleur-schaduw: #000;
-    --kleur-gloei: rgb(200 0 0);
+    --kleur-gloei: hsl(240deg 100% 40%);
     --kleur-spreadSchaduw: rgb(0 0 50);
     --kleur-background: rgb(120 120 120 /0.5);
 }
@@ -94,6 +94,7 @@ h3 {
 }
 
 p {
+    font-family: sans-serif;
     color: var(--kleur-basis);
 }
 
@@ -216,10 +217,12 @@ li:hover {
     z-index: 100;
 }
 
+/* focus state */
 li button:focus {
-    filter: drop-shadow(0 0 5em var(--kleur-schaduw));
+    filter: drop-shadow(0 0 5em var(--kleur-gloei));
 }
 
+/* active state*/
 li button:active {
     opacity: .5;
 }

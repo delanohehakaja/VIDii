@@ -232,47 +232,51 @@ li button:active {
 section {
     position: absolute;
     z-index: 1000;
-    width: 20em;
-    background-color: var(--kleur-schaduw);
-    border-radius: .5em;
-    box-shadow: 0 0 .8em var(--kleur-schaduw);
-    padding: 1em 3em;
+    
+    top: -100%;
+    width: 30em;
+    height: 30em;
+    padding:6em 10em;
+    
+    background-image:
+        url('../images/spider-web.png');
+    background-size:
+        cover;
+    background-position: center center; 
+    
+    filter:drop-shadow(0 0 .5em var(--kleur-schaduw));
 }
 
 /* Opmaak filmrol */
 section::before {
     content: "";
     position: absolute;
-    left: 4em;
-    top: 0em;
-    width: 1em;
-    height: 2em;
-    box-shadow:
-        14em 0 0 var(--kleur-basis),
-        14em 4em 0 var(--kleur-basis),
-        14em 8em 0 var(--kleur-basis),
-        14em 12em 0 var(--kleur-basis),
-        14em 16em 0 var(--kleur-basis),
-        14em 20em 0 var(--kleur-basis),
-        -3em 0 0 var(--kleur-basis),
-        -3em 4em 0 var(--kleur-basis),
-        -3em 8em 0 var(--kleur-basis),
-        -3em 12em 0 var(--kleur-basis),
-        -3em 16em 0 var(--kleur-basis),
-        -3em 20em 0 var(--kleur-basis);
+    left:20%;
+    top:20%;
+    width:60%;
+    height:80%;
+    
+    background-color: var(--kleur-schaduw);
+    
+    background-image:
+        conic-gradient(at left center, var(--kleur-schaduw) 25%, var(--kleur-basis) 25%),
+        conic-gradient(at left center, var(--kleur-schaduw) 25%, var(--kleur-basis) 25%);
+    background-size: 2em 4em;
+    background-repeat: repeat-y;
+    background-position:
+        1em top,
+        calc(100% - 1em) top;
+
 }
 
-section::after {
-    content: "";
-    position: absolute;
-    inset: -35%;
-    background-image: url('../images/spider-web.png'); 
-    background-repeat: no-repeat;
+section h3,
+section p {
+    position: relative;
 }
 
 /* Invliegen/vergroten tekstvak */
 li:nth-of-type(1) section {
-    right: -16em;
+    right: -22.5em;
     bottom: 100%;
     transform-origin: left bottom;
     transform: scale(0);
@@ -284,7 +288,7 @@ li:nth-of-type(1):hover section {
 }
 
 li:nth-of-type(2) section {
-    right: -10em;
+    right: -22.5em;
     bottom: 100%;
     transform-origin: left bottom;
     transform: scale(0);
@@ -297,7 +301,7 @@ li:nth-of-type(2):hover section {
 }
 
 li:nth-of-type(3) section {
-    right: 16em;
+    right: 14em;
     bottom: 100%;
     transform-origin: right bottom;
     transform: scale(0);

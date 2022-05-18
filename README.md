@@ -263,9 +263,9 @@ Mijn startniveau is: blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/final-ontwerp.jpg" alt="final ontwerp">
-  <img src="readme-images/final-ontwerp-active.jpg" alt="final ontwerp active">
-  <img src="readme-images/final-ontwerp-hover.jpg" alt="final ontwerp hover">
+  <img src="readme-images/final-ontwerp.png" alt="final ontwerp">
+  <img src="readme-images/final-ontwerp-active.png" alt="final ontwerp active">
+  <img src="readme-images/final-ontwerp-hover.png" alt="final ontwerp hover">
   
 
 

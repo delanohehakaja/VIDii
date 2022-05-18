@@ -33,10 +33,9 @@ Mijn startniveau is: blauw
 
   ### Je ambitie: 
   Aan deze technieken/punten wil ik werken:
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Animeren zonder javascript
+  - Responsive design maken
+  - Content stijlen in css
  
 </details>
 
@@ -264,14 +263,15 @@ Mijn startniveau is: blauw
   <summary>Mijn eindresultaat & persoonlijke ontwikkeling</summary>
 
   ### Je uitkomst - karakteristiek screenshot(s):
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="final ontwerp">
+  <img src="readme-images/final-ontwerp.jpg" alt="final ontwerp">
+  <img src="readme-images/final-ontwerp-active.jpg" alt="final ontwerp active">
+  <img src="readme-images/final-ontwerp-hover.jpg" alt="final ontwerp hover">
+  
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatje(s)
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
-
+  <img src="readme-images/custom-properties.png" alt="custom properties">
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)

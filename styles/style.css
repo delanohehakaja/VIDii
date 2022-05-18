@@ -69,6 +69,8 @@ h1 {
         0 0 .8em var(--kleur-spreadSchaduw);
 }
 
+/* Ik heb gekeken naar hoe je een 3d tekst maakt met behulp van deze bron: https://codepen.io/The_Gusz/pen/mdXWbLw */
+
 h2 {
     font-family: "Brush Script MT", cursive;
     color: var(--kleur-basis);
@@ -107,10 +109,6 @@ body[data-verse="maguire"] li:nth-of-type(1) button img {
 /* snelheid portal */
 body[data-verse="maguire"] li:nth-of-type(1) button::after {
     animation-duration: .4s;
-}
-
-body[data-verse"maguire"] li:nth-of-type(1) img {
-    content: url("../images/maguire-text.png");
 }
 
 /* afbeelding garfield button veranderen */
@@ -238,6 +236,7 @@ section {
     padding: 1em 3em;
 }
 
+/* Opmaak filmrol */
 section::before {
     content: "";
     position: absolute;
@@ -264,10 +263,11 @@ section::after {
     content: "";
     position: absolute;
     inset: -35%;
-    background-image: url('../images/spider-web.png');
+    background-image: url('../images/spider-web.png'); 
     background-repeat: no-repeat;
 }
 
+/* Invliegen/vergroten tekstvak */
 li:nth-of-type(1) section {
     right: -16em;
     bottom: 100%;

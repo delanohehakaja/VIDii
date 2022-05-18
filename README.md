@@ -193,23 +193,53 @@ Mijn startniveau is: blauw
   ### Bevinding 1:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
-  Het tekstvak stond nog onder de gateway's terwijl die links en rechtsboven de gateway's moeten staan.
+  Behalve de hover state ontbraken de rest van de states in mijn ontwerp. Dus moest er nog de focus en active states toegepast worden.
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
-
-
+  
+  Voor de focus state heb ik een zwarte schaduw toegepast om te laten zien waar je bent.
+  
+  Geen focus
+  <img src="readme-images/geen-focus.png" alt="geen focus">
+  
+  Focus state
+  <img src="readme-images/focus.png" alt="focus">
+  
+  Voor de active state heb ik de opacity verlaagd, dus wanneer je op de gateway klikt dan zie je vermindering in de opacity.
+  
+  Normaal
+  <img src="readme-images/geen-focus.png" alt="geen focus">
+  
+  Active state
+  <img src="readme-images/active.png" alt="active">
+  
 
   ### Bevinding 2:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+  Het tekstvak stond nog onder de gateway's terwijl die links en rechtsboven de gateway's moeten staan.
+  
+  <img src="readme-images/text-web-onder.png" alt="text web onder">
 
   #### oplossing:
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
-
-
+  
+  Ik had een afbeelding gebruikt en onder de andere li's gezet. Dit heb ik aangepast door een section toe te voegen bij elke li gateway. In de section plaatste ik tekst en door middel van css stijl ik de achtergrond. Om de tekst links en rechtsboven de gateway's te krijgen heb ik in css heel de section opgeroepen en op positie geplaatst.
+  
+  <img src="readme-images/text-web-boven.png" alt="text web boven">
 
   ### Bevinding 3:
-  ...
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+  Bij de tekstvak heb ik een spider-web toegevoegd. Deze spider-web staat voor de tekstvak, maar die wil ik erachter hebben.
+  
+  <img src="readme-images/spider-web-text-fout.png" alt="spiderweb text fout">
+  
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  
 
 </details>
 
@@ -248,8 +278,27 @@ Mijn startniveau is: blauw
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. Afbeelding Spider-man Tobey Maguire; https://geektyrant.com/news/sam-raimi-would-not-direct-tom-hollands-spider-man-4-because-tobey-maguire-would-break-my-neck
+
+2. Afbeelding Spider-man Andrew Garfield; https://www.koimoi.com/hollywood-news/spider-man-andrew-garfield-is-definitely-open-to-make-a-comeback-as-peter-parker-will-have-to-feel-very-sure-certain-in-myself/
+
+3. Afbeelding Spider-man Tom Holland; https://www.hln.be/film/spider-man-tom-holland-stelt-fans-gerust-we-zullen-nieuwe-manieren-vinden-om-het-nog-cooler-te-maken~a5d86b95/?referrer=https%3A%2F%2Fwww.google.com%2F
+
+4. Afbeelding Marvel logo; https://commons.wikimedia.org/wiki/File:Marvel-Comics-Logo.svg
+
+5. Afbeelding achtergrond NYC; https://untappedcities.com/2019/03/29/10-of-nycs-triangle-buildings-a-brief-history/
+
+6. Afbeelding Spider-man Tobey Maguire en MJ; http://begin-english.ru/stati-na-angliiskom/turns-out-there-was-no-cgi-in-that-tray-scene-in-spider-man
+
+7. Afbeelding Spider-man Andrew Garfield en MJ; https://www.donnaglamour.it/wp-content/uploads/2020/02/FB_The_Amazing_Spider_Man.jpg
+
+8. Afbeelding Spider-man Tom Holland en MJ; https://www.techadvisor.com/cmsdata/features/3811839/spider-man_post-credits_scene_thumb800.jpg
+
+9. Afbeelding Portal; https://www.pngfind.com/pngs/m/245-2457907_portal-portal2-doctorstrange-doctor-strange-png-for-picsart.png
+
+10. Ik heb gekeken naar hoe je een 3d tekst maakt met behulp van deze bron; https://codepen.io/The_Gusz/pen/mdXWbLw
+
+11. Ik heb het hoveren en klikken op de gateway mogelijk gemaakt met behulp van deze bron: https://codepen.io/The_Gusz/pen/mdXWbLw
+
 
 </details>

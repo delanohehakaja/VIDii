@@ -198,17 +198,21 @@ Mijn startniveau is: blauw
   Voor de focus state heb ik een donkerblauw schaduw toegepast om te laten zien waar je bent.
   
   Geen focus
+  
   <img src="readme-images/geen-focus.png" alt="geen focus">
   
   Focus state
+  
   <img src="readme-images/focus.png" alt="focus">
   
   Voor de active state heb ik de opacity verlaagd, dus wanneer je op de gateway klikt dan zie je vermindering in de opacity.
   
   Normaal
+  
   <img src="readme-images/geen-focus.png" alt="geen focus">
   
   Active state
+  
   <img src="readme-images/active.png" alt="active">
   
 
@@ -270,8 +274,20 @@ Mijn startniveau is: blauw
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatje(s)
+  Tijdens een van de lessen bespraken wij het onderwerp animeren. Met behulp van de oefeningen heb ik geleerd hoe je de verschillende states kan toepassen en heb ik dit ook verwerkt in mijn ontwerp.
+  
+  <img src="readme-images/focus.png" alt="focus">
+  
+  <img src="readme-images/active.png" alt="active">
+  
+  
+  
+  Het stijlen van het lettertype ging goed, en ik heb geleerd dat je door middel van :root alle kleuren tegelijk kan aanpassen.
   <img src="readme-images/custom-properties.png" alt="custom properties">
+  
+  
+  
+  
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatje(s)

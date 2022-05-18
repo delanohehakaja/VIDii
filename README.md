@@ -169,8 +169,6 @@ Mijn startniveau is: blauw
   
   <img src="readme-images/text-web.png" alt="text web">
 
-
-
   ### Bevinding 3:
   Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
@@ -240,6 +238,20 @@ Mijn startniveau is: blauw
   Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
   
   
+  
+  ### Bevinding 4:
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+  Zoals je bij de vorige bevindingen kon zien was het tekstvak al verandert, maar heb ik die nog niet besproken. Ik vond het tekstvak niet bij het ontwerp passen.
+  
+  <img src="readme-images/text-web-onder.png" alt="text web onder">
+  
+  #### oplossing:
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
+  
+  Als oplossing heb ik er een filmrol gemaakt, omdat het ontwerp over verschillende Spider-man's gaat en over welke films het gaat.
+  
+  
 
 </details>
 
@@ -299,6 +311,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 10. Ik heb gekeken naar hoe je een 3d tekst maakt met behulp van deze bron; https://codepen.io/The_Gusz/pen/mdXWbLw
 
 11. Ik heb het hoveren en klikken op de gateway mogelijk gemaakt met behulp van deze bron: https://codepen.io/The_Gusz/pen/mdXWbLw
+
+12. Afbeelding Spider-man icon; https://iconape.com/spider-man-comic-new-logo-logo-icon-svg-png.html
 
 
 </details>

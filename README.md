@@ -46,7 +46,7 @@ Mijn startniveau is: blauw
 ## Voortgang/Feedback 1
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
 
   ### Bevinding 1:
   Na de uitleg van het concept was het idee leuk en duidelijk en met de volgende afbeelding liet ik zien hoe dit eruit zou gaan zien.
@@ -137,10 +137,10 @@ Mijn startniveau is: blauw
 ## Voortgang/Feedback 2
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
   Op de pagina waren alleen de fonts responsive, maar de gateway's nog niet.
 
@@ -158,7 +158,7 @@ Mijn startniveau is: blauw
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
   
   Ik moet nog duidelijker naar voren laten dat het gaat om 3 verschillende Spider-man's. 
 
@@ -172,7 +172,14 @@ Mijn startniveau is: blauw
 
 
   ### Bevinding 3:
-  ...
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+  De custom properties moest nog toegepast worden voor elk lettertypekleur en achtergrond kleur.
+  
+  #### oplossing:
+  Door middel van :root heb ik de kleuren benoemd en ben ik door heel mijn css code gegaan om het toe te passen.
+  
+  <img src="readme-images/root.png" alt="root">
 
 </details>
 
@@ -181,21 +188,23 @@ Mijn startniveau is: blauw
 ## Voortgang/Feedback 3
 
 <details>
-  <summary>Mijn bevindingen + wijzigingen (minimaal 5)</summary>
+  <summary>Mijn bevindingen + wijzigingen</summary>
   
   ### Bevinding 1:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
+  
+  Het tekstvak stond nog onder de gateway's terwijl die links en rechtsboven de gateway's moeten staan.
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 
   ### Bevinding 2:
-  Omschrijving van wat er nog niet orde was (tekst en afbeeding(en)).
+  Omschrijving van wat er nog niet orde was (tekst en afbeelding(en)).
 
   #### oplossing:
-  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeeding(en)).
+  Beschrijving hoe je het hebt hebt opgelost of als het niet gelukt is hoe je het zou oplossen (tekst en afbeelding(en)).
 
 
 

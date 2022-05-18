@@ -36,7 +36,7 @@ button:not([disabled]) {
     --kleur-merk: crimson;
     --kleur-basis: #fff;
     --kleur-schaduw: #000;
-    --kleur-gloei: rgb (0 0 200);
+    --kleur-gloei: rgb(200 0 0);
     --kleur-spreadSchaduw: rgb(0 0 50);
     --kleur-background: rgb(120 120 120 /0.5);
 }
@@ -66,7 +66,7 @@ h1 {
         .04em .16em 0em var(--kleur-schaduw),
         .045em .18em 0em var(--kleur-schaduw),
         .05em .2em 0em var(--kleur-schaduw),
-        0 0 1em var(--kleur-spreadSchaduw);
+        0 0 .8em var(--kleur-spreadSchaduw);
 }
 
 h2 {
@@ -78,12 +78,21 @@ h2 {
     padding: 0;
     text-shadow:
         .05em .05em 0em var(--kleur-schaduw),
-        0 0 1em var(--kleur-spreadSchaduw);
+        0 0 .8em var(--kleur-spreadSchaduw);
 }
 
 h2 + p {
     color: var(--kleur-basis);
     text-align: center;
+}
+
+h3 {
+    font-family: "Verdana";
+    color: var(--kleur-basis);
+}
+
+p {
+    color: var(--kleur-basis);
 }
 
 /***********************/
@@ -95,13 +104,9 @@ body[data-verse="maguire"] li:nth-of-type(1) button img {
     content: url("../images/spiderman-maguire-mj.png");
 }
 
-body[data-verse="maguire"] li:nth-of-type(1) button:active {
-    box-shadow: .5em .5em 100em var(kleur-gloei);
-}
-
 /* snelheid portal */
 body[data-verse="maguire"] li:nth-of-type(1) button::after {
-    animation-duration: .3s;
+    animation-duration: .4s;
 }
 
 body[data-verse"maguire"] li:nth-of-type(1) img {
@@ -115,7 +120,7 @@ body[data-verse="garfield"] li:nth-of-type(2) button img {
 
 /* snelheid portal */
 body[data-verse="garfield"] li:nth-of-type(2) button::after {
-    animation-duration: .3s;
+    animation-duration: .4s;
 }
 
 /* afbeelding holland button veranderen */
@@ -125,7 +130,7 @@ body[data-verse="holland"] li:nth-of-type(3) button img {
 
 /* snelheid portal */
 body[data-verse="holland"] li:nth-of-type(3) button::after {
-    animation-duration: .3s;
+    animation-duration: .4s;
 }
 
 header {
@@ -138,6 +143,7 @@ header {
 header img {
     height: 2.5vw;
     width: 5vw;
+    box-shadow: 0 0 .8em var(--kleur-spreadSchaduw);
 }
 
 button img {
@@ -156,7 +162,9 @@ ol {
 
 li {
     position: relative;
+
 }
+
 /***********************/
 /********BUTTONS********/
 /***********************/
@@ -180,7 +188,7 @@ button::after {
     background-image: url('../images/portal.png');
     background-size: cover;
     animation-name: gateway;
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
 }
@@ -211,7 +219,7 @@ li:hover {
 }
 
 li button:focus {
-    opacity: .5;
+    filter: drop-shadow(0 0 5em var(--kleur-schaduw));
 }
 
 li button:active {
@@ -223,22 +231,49 @@ li button:active {
 section {
     position: absolute;
     z-index: 1000;
-    width:16em;
-    background-color: lightyellow;
-    background-image: url("../images/spider-web.png");
-    background-size: auto;
-    border-radius: 1em;
-    padding:1em;
+    width: 20em;
+    background-color: var(--kleur-schaduw);
+    border-radius: .5em;
+    box-shadow: 0 0 .8em var(--kleur-schaduw);
+    padding: 1em 3em;
+}
+
+section::before {
+    content: "";
+    position: absolute;
+    left: 4em;
+    top: 0em;
+    width: 1em;
+    height: 2em;
+    box-shadow:
+        14em 0 0 var(--kleur-basis),
+        14em 4em 0 var(--kleur-basis),
+        14em 8em 0 var(--kleur-basis),
+        14em 12em 0 var(--kleur-basis),
+        14em 16em 0 var(--kleur-basis),
+        14em 20em 0 var(--kleur-basis),
+        -3em 0 0 var(--kleur-basis),
+        -3em 4em 0 var(--kleur-basis),
+        -3em 8em 0 var(--kleur-basis),
+        -3em 12em 0 var(--kleur-basis),
+        -3em 16em 0 var(--kleur-basis),
+        -3em 20em 0 var(--kleur-basis);
+}
+
+section::after {
+    content: "";
+    position: absolute;
+    inset: -35%;
+    background-image: url('../images/spider-web.png');
+    background-repeat: no-repeat;
 }
 
 li:nth-of-type(1) section {
-    right:-16em;
-    bottom:100%;
-    
+    right: -16em;
+    bottom: 100%;
     transform-origin: left bottom;
     transform: scale(0);
     transition: .2s;
-    
 }
 
 li:nth-of-type(1):hover section {
@@ -246,13 +281,12 @@ li:nth-of-type(1):hover section {
 }
 
 li:nth-of-type(2) section {
-    right:-16em;
-    bottom:100%;
-    
+    right: -10em;
+    bottom: 100%;
     transform-origin: left bottom;
     transform: scale(0);
     transition: .2s;
-    
+
 }
 
 li:nth-of-type(2):hover section {
@@ -260,13 +294,12 @@ li:nth-of-type(2):hover section {
 }
 
 li:nth-of-type(3) section {
-    right:16em;
-    bottom:100%;
-    
+    right: 16em;
+    bottom: 100%;
     transform-origin: right bottom;
     transform: scale(0);
     transition: .2s;
-    
+
 }
 
 li:nth-of-type(3):hover section {
